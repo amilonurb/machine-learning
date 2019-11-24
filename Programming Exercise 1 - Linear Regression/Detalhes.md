@@ -26,3 +26,7 @@
         - J_history: valor da função de custo em cada iteração
     
 * Parte 2 - RL multivariável
+- computeCostMulti.m: equivalente a função de custo simples, mas adaptada para várias variáveis
+- gradientDescentMulti.m: equivalente ao gradiente descendente simples
+- featureNormalize.m: normaliza as variáveis, usando (x - média) / desvio padrão
+- normalEqn.m: computa __theta__ de forma analítica, ou seja, sem uso de loops
