@@ -32,7 +32,7 @@ for i = 1:n
     mu(i) = mean(X(:, i));
     sigma(i) = std(X(:, i));
     X_norm(:, i) = (X_norm(:, i) - mu(i)) / sigma(i);
+end
 
 % ============================================================
-
 end
