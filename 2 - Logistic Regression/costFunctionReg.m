@@ -27,6 +27,6 @@ J = ((1 / m) * (-y' * log(hypothesis) - (1 - y)' * log(1 - hypothesis))) + reg_c
 % Derivadas
 reg_grad = (lambda / m) * theta_reguralized;
 grad = ((1 / m) * X' * (hypothesis - y)) + reg_grad;
-% =============================================================
 
+% =============================================================
 end
